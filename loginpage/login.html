@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Login SignUp</title>
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
+</head>
+<body>
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" id="log" style="color: #fff;">Log In</button>
+				<button type="button" class="toggle-btn" id="reg" >Register</button>
+			</div>
+			<div class="social-icons">
+				<img src="/loginpage/icon/fb2.png">
+				<img src="/loginpage/icon/insta2.png">
+				<img src="/loginpage/icon/tt2.png">
+			</div>
+			
+			<!-- Login Form -->
+			<form id="login" class="input-group" action="index.html">
+				<div class="inp">
+					<img src="/loginpage/icon/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88%; border:none;" required="required">
+				</div>
+				<div class="inp">
+					<img src="/loginpage/icon/password.png"><input type="password" id="password" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
+				</div>
+				<input type="checkbox" class="check-box">Remember Password
+				<button type="submit" class="submit-btn">Log In</button>
+			</form>
+
+
+			<div class="other" id="other">
+				<div class="instead">
+					<h3>or</h3>
+				</div>
+				<button class="connect" onclick="google()">
+					<img src="/loginpage/icon/google.png"><span>Sign in with Google</span>
+				</button>
+			</div>
+			
+		</div>
+		
+</body>
+</html>
